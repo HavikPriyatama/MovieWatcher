@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#0c2461</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="blue_link">#0984e3</color>
+    <color name="colorBotomNav">#dfe6e9</color>
+
+    <color name="bg_color_start">#16DF99</color>
+    <color name="bg_color_end">#2167DF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="bn_tint">#000000</color>
+    <color name="bn_grey">#888888</color>
+
+    <color name="link_text">#022BFA</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="pink">#FF30FA</color>
+    <color name="dark_grey">#636e72</color>
+
+    <color name="control_normal">#636e72</color>
+    <color name="control_acive">#55efc4</color>
+    <color name="control_highlight">#dfe6e9</color>
+
+
+
+
+
+</resources>

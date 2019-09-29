@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ListMovieActivity">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar_account" />
+    <ListView
+        android:layout_marginLeft="@dimen/margin_main"
+        android:layout_marginRight="@dimen/margin_main"
+        android:divider="@color/white"
+        android:dividerHeight="10dp"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:id="@+id/list_view_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:smoothScrollbar="true"/>
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:visibility="invisible"
+        android:id="@+id/progressBar_list"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MovieWatcher</string>
+    <string name="home_menu">Menu</string>
+    <string name="search_menu">Search</string>
+    <string name="favorite_menu">Favorite</string>
+    <string name="list_menu">List Menu</string>
+    <string name="genre">Genre</string>
+    <string name="account_menu">Account</string>
+    <string name="view_all">View all</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="similiar_movie">Similiar Movie</string>
+    <string name="cast">Cast</string>
+    <string name="crew">Crew</string>
+    <string name="trailer">Trailer</string>
+    <string name="popular">POPULAR MOVIES</string>
+    <string name="topRated">TOP RATED MOVIES</string>
+    <string name="searchMovie">Search Movie</string>
+
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_to_main">70dp</dimen>
+    <dimen name="progressbar_small">50dp</dimen>
+    <dimen name="trending_value">170dp</dimen>
+    <dimen name="margin_big">30dp</dimen>
+    <dimen name="margin_med">20dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_main">16dp</dimen>
+    <dimen name="text_big">30sp</dimen>
+
+</resources>

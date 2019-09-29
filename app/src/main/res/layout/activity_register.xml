@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_small"
+    tools:context=".activity.RegisterActivity">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/toolbar_account" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_password"
+        android:layout_marginBottom="@dimen/margin_small"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_repassword"
+        android:layout_marginBottom="@dimen/margin_small"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Re Enter Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_button"
+        android:text="@string/Register"
+        android:textColor="@color/white" />
+</LinearLayout>
