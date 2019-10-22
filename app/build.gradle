@@ -40,10 +40,10 @@ dependencies {
 
     //butter knife
     implementation 'com.jakewharton:butterknife:10.1.0'
-    //buterknife anotation procesor
+    //butterknife anotation procesor
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
 
-    //Material searchbar
+    //Material search bar
     implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
 
 

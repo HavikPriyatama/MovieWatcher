@@ -33,7 +33,7 @@ public class IntentManager {
 
     public void clearStackIntent(Class activityClass){
         Intent intent = new Intent(context, activityClass);
-        intent.setFlags(intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.setFlags(intent.FLAG_ACTIVITY_NO_HISTORY);
         context.startActivity(intent);
     }
 

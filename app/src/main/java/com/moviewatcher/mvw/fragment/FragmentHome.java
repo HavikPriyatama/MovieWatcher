@@ -133,11 +133,11 @@ public class FragmentHome extends DaggerFragment implements FragmentHomeContract
         picasso.load(IMAGE_MEDIUM_PATH + movies.get(0).getBackdrop_path()).into(imageHeader);
         imageHeader.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(0).getId()));
         picasso.load(IMAGE_SMALL_PATH + movies.get(1).getPoster_path()).into(imageChild1);
-        imageChild1.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(0).getId()));
+        imageChild1.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(1).getId()));
         picasso.load(IMAGE_SMALL_PATH + movies.get(2).getPoster_path()).into(imageChild2);
-        imageChild2.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(0).getId()));
+        imageChild2.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(2).getId()));
         picasso.load(IMAGE_SMALL_PATH + movies.get(3).getPoster_path()).into(imageChild3);
-        imageChild3.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(0).getId()));
+        imageChild3.setOnClickListener(v -> intentManager.getDetailMovie(movies.get(3).getId()));
     }
 
     @Override

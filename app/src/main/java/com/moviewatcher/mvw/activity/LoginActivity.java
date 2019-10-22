@@ -2,6 +2,8 @@ package com.moviewatcher.mvw.activity;
 
 
 import androidx.appcompat.widget.Toolbar;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -89,7 +91,9 @@ public class LoginActivity extends DaggerAppCompatActivity implements LoginContr
 
     @Override
     public void onSuccess() {
-        intentManager.clearStackIntent(MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(intent.FLAG_ACTIVITY_NO_HISTORY);
+        startActivity(intent);
         finish();
     }
 
